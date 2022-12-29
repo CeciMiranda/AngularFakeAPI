@@ -1,0 +1,25 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ 
+header {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 1%;
+    color: white;
+    background-color: #009879;
+}
+ 
+a {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+ 
+#app-h1{
+    display: flex;
+    justify-content:flex-start;
+    margin: 10px;
+}
+

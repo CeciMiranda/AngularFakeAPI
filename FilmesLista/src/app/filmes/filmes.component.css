@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+ 
+form {
+    width: 100%;
+    max-width: 350px;
+}
+ 
+form #title {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+ 
+form input {
+    width: 100%;
+    position: relative;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: none;
+}
+ 
+form input:focus {
+    border-bottom: 2px solid #009879;
+    transition: ease-in 0.3s;
+}
+ 
+form button {
+    margin: 5% 40%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+    background-color: #009879;
+    border: 0;
+    cursor: pointer;
+}
+ 
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    margin-left: 50px;
+    font-size: 0.9rem;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+ 
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+ 
+table th, table td{
+    padding: 12px 15px;
+}
+ 
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table button {
+    margin: 2px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+    background-color: #009879;
+    border: 0;
+    cursor: pointer;
+}

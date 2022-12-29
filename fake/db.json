@@ -1,0 +1,76 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Emily in Paris",
+      "ano": "2020",
+      "ntemporadas": "3"
+    },
+    {
+      "id": 2,
+      "titulo": "Monster: The Jeffrey Dahmer Story",
+      "ano": "2022",
+      "ntemporadas": "1"
+    },
+    {
+      "id": 3,
+      "titulo": "You",
+      "ano": "2018",
+      "ntemporadas": "3"
+    },
+    {
+      "id": 4,
+      "titulo": "Outer Banks",
+      "ano": "2020",
+      "ntemporadas": "2"
+    },
+    {
+      "id": 5,
+      "titulo": "Lupin",
+      "ano": "2021",
+      "ntemporadas": "2"
+    },
+    {
+      "id": 6,
+      "titulo": "One of Us Is Lying",
+      "ano": "2021",
+      "ntemporadas": "2"
+    },
+    {
+      "id": 7,
+      "titulo": "Blindspot",
+      "ano": "2015",
+      "ntemporadas": "5"
+    },
+    {
+      "id": 8,
+      "titulo": "Stranger Things",
+      "ano": "2016",
+      "ntemporadas": "4"
+    },
+    {
+      "titulo": "The Walking Dead",
+      "ano": "2010",
+      "ntemporadas": "11",
+      "id": 9
+    },
+    {
+      "titulo": "When They See Us",
+      "ano": "2019",
+      "ntemporadas": "1",
+      "id": 10
+    },
+    {
+      "titulo": "Jane the Virgin",
+      "ano": "2014",
+      "ntemporadas": "5",
+      "id": 11
+    },
+    {
+      "titulo": "The Crown",
+      "ano": "2016",
+      "ntemporadas": "5",
+      "id": 12
+    }
+  ]
+}

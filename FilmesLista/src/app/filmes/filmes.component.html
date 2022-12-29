@@ -1,0 +1,37 @@
+<div class="container">
+
+
+    <form>
+        <p id="title">Top séries 2022</p>
+        <p>Titulo: <input type="text" name="titulo" [(ngModel)]="filme.titulo"></p>
+        <p>Ano: <input type="text" name="ano" [(ngModel)]="filme.ano"></p>
+        <p>N° Temporadas: <input type="text" name="ntemporadas" [(ngModel)]="filme.ntemporadas"></p>
+        <button type="button" (click)="adicionar()">Adicionar</button>
+    </form>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Titulo</th>
+                <th>Ano</th>
+                <th>N° Temp.</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr *ngFor="let filme of filmes">
+                <td>{{filme.id}}</td>
+                <td>{{filme.titulo}}</td>
+                <td>{{filme.ano}}</td>
+                <td>{{filme.ntemporadas}}</td>
+                <td><button (click)="atualizar(filme.id)">Atualizar</button>
+                <button (click)="remover(filme.id)">Remover</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
